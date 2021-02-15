@@ -73,7 +73,7 @@ LLVM es una biblioteca para crear mediante programación el código nativo de la
 
 expect
 
-es una función, pero también podría ser una clase. Al igual que con las interfaces no se define el cuerpo de la función ya que este existirá en la implementación concreta para cada plataforma. Se utiliza dentro de commonMain para notificar al compilador que parte compartida del código requiere alguna implementación específica de la plataforma
+Al igual que con las interfaces no se define el cuerpo de la función ya que este existirá en la implementación concreta para cada plataforma. Se utiliza dentro de commonMain para notificar al compilador que parte compartida del código requiere alguna implementación específica de la plataforma
 
 ![Notion_1awy3a7fw6](https://user-images.githubusercontent.com/46237010/107978937-a687ff80-6f8b-11eb-856c-9fddef61f2cb.png)
 
